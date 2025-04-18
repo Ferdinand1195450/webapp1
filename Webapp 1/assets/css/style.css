@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/pliza-1.png);
+    background-size: cover;
+}
+
+.update-productnaam{
+    width: 150px;
+}
+
+.update-beschrijving{
+    width: 450px;
+}
+
+.update-prijs{
+    width: 30px;
+}
+
+/* header start*/
+header{
+    width:90vw;
+    height: 15vh;
+    margin-top: 10vh;
+    background-color: #F6DFDF;
+}
+/* header stop */
+
+/* main start */
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:90vw;
+}
+
+.menu{
+    position: relative;
+    width: 90vw;
+    height: 65vh;
+    overflow: auto;
+    background-color: #F5EDED;
+}
+
+/* .menu{
+    display: flex;
+    width:90vw;
+    height: 65vh;
+    background-color: #F5EDED;
+}
+
+.menu-left{
+    width:45vw;
+    height:65vh;
+    color:#D72323;
+}
+
+.menu-header{
+    color:#D72323;
+}
+
+.menu-list{
+    position: relative;
+    overflow:auto;
+}
+
+.menu-right{
+    color:#D72323;
+}
+
+.menu-order{
+    color:#D72323;
+} */
+
+.menu-item{
+    width: 40vw;
+    background-color: #F5EDED;
+    border-style: solid;
+    border-color: #D3C8C8;
+    border-width: 2px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.product-naam{
+    font-family: Ubuntu Sans Mono;
+    font-weight: bold;
+    font-size: larger;
+    color: #D72323;
+}
+
+.menu-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.beschrijving{
+    font-family: Ubuntu Sans Mono;
+    font-weight: bold;
+    font-size: medium;
+    color: #565656;
+    margin-top: 10px;
+}
+
+.prijs{
+    font-family: Ubuntu Sans;
+    font-weight: bold;
+    font-size: medium;
+    color: #FFFFFF;
+}
+
+.prijs-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 40px;
+    background-color: #D72323;
+    border-radius: 25px;
+}
+/* main stop */
+
+/* footer start */
+
+/* footer stop */
